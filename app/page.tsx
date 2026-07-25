@@ -171,21 +171,27 @@ export default function Home() {
           className="space-y-6 text-center pt-12 border-t border-white/10"
         >
           <div className="text-xs font-mono text-cyan-400 uppercase tracking-widest">
-           // SOCIALS
+            // SOCIALS
           </div>
           <h2 className="text-3xl font-bold">Let's build something extraordinary.</h2>
           <p className="text-gray-400 max-w-md mx-auto text-sm font-light">
             Reach out to me on any of my socials. I'm always ready for a chat.
           </p>
 
-          <div className="flex justify-center gap-6 pt-4 font-mono text-sm">
-            <a href="https://github.com" target="_blank" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
+          <div className="flex flex-wrap justify-center gap-4 pt-4 font-mono text-sm">
+            <a href="https://github.com/MRHWCKRR" target="_blank" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
               GitHub
             </a>
-            <a href="https://linkedin.com" target="_blank" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
-              LinkedIn
+            <a href="https://discord.com" target="_blank" title="Add me: mrhwckrr_v2" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
+              Discord (@mrhwckrr_v2)
             </a>
-            <a href="mailto:you@domain.com" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
+            <a href="https://www.instagram.com/bytebybyte.builds/" target="_blank" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
+              Instagram
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61576772697674" target="_blank" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
+              Facebook
+            </a>
+            <a href="mailto:bytebybytebuilds@gmail.com" className="bg-white/5 hover:bg-white/10 border border-white/10 px-6 py-3 rounded-full text-gray-200 hover:text-cyan-400 transition-colors">
               Email
             </a>
           </div>
