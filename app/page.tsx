@@ -6,26 +6,26 @@ import SpaceBackground from "../components/SpaceBackground";
 const projects = [
   {
     id: "project-1",
-    category: "Deep Space Engineering",
-    title: "Project Orion // Autonomous Telemetry Array",
-    description: "An end-to-end data pipeline built for high-altitude sensor tracking. Features custom telemetry parsing, a real-time React dashboard, and low-latency websocket connections.",
-    details: "Built with a focus on high availability under poor network conditions. Utilizes WebSockets for real-time packet streaming and a modular plugin architecture for different sensor types.",
-    tags: ["React", "WebSockets", "Node.js", "Tailwind"],
+    category: "App Development",
+    title: "Kairos // AI Powered Student Scheduler",
+    description: "An AI powered all in one solution for unorganised timetables and late assignments. You put your times, tasks and schedule in, and AI does the rest.",
+    details: "Built using HTML, CSS and native Javascript. Lightweight and feature-packed. Incoorporates a Checklist, Calendar and Daily/Weekly Event Schedule and reminders. Syncs to all devices so you can pick up where you left off and get reminders on the go. A must have for students and professionals.",
+    tags: ["HTML", "CSS", "Javascript"],
   },
   {
     id: "project-2",
     category: "Systems & Embedded",
-    title: "ZMK Studio Wireless Firmware",
-    description: "Contributing to open-source Bluetooth Low Energy (BLE) keyboard firmware, optimizing power states and multi-device peripheral switching.",
-    details: "Focused on shaving milliseconds off input latency while extending battery life to over 6 months on a single charge through aggressive sleep state management.",
+    title: "Lorem ipsum dolor",
+    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet consectetur adipiscing elit quisque faucibus ex sapien. Quisque faucibus ex sapien vitae pellentesque sem placerat. Vitae pellentesque sem placerat in id cursus mi.",
+    details: "Lorem ipsum dolor sit amet consectetur adipiscing elit. Sit amet consectetur adipiscing elit quisque faucibus ex. Adipiscing elit quisque faucibus ex sapien vitae pellentesque.",
     tags: ["C/C++", "Zephyr RTOS", "BLE", "Embedded"],
   },
   {
     id: "project-3",
     category: "Web Interfaces",
-    title: "The Digital Universe Portfolio",
+    title: "Space Themed Portfolio",
     description: "A space-themed, fluidly animated web experience featuring a 3D starfield, glassmorphism UI components, and dynamic layout scaling.",
-    details: "Engineered using Next.js App Router, React Three Fiber for the 3D environment, and Framer Motion for buttery-smooth viewport-triggered scroll transitions.",
+    details: "Engineered using Next.js App Router, React Three Fiber for the 3D environment, and Framer Motion for smooth animations and seemless navigation.",
     tags: ["Next.js", "Three.js", "Framer Motion", "Tailwind v4"],
   },
 ];
@@ -92,14 +92,14 @@ export default function Home() {
             // ABOUT ME
           </div>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Driven by curiosity, precision, and clean code.
+            Challenge the unknown
           </h2>
           <div className="space-y-4 text-gray-300 leading-relaxed font-light">
             <p>
-              I specialize in bridging the gap between raw hardware capabilities and fluid, modern user interfaces. Whether I'm optimizing low-level firmware or engineering butter-smooth web animations, my goal is to build things that feel alive.
+              I build apps and tools to help daily life, whether that involves time, money or space. I specialise in engineering butter-smooth websites and pushing the boundaries. My goal is to build things that feel alive.
             </p>
             <p>
-              When I'm not writing code or looking at star charts, you can find me tinkering with custom mechanical peripherals, studying distributed system architectures, or experimenting with generative 3D graphics in the browser.
+              I enjoy a range of hobbies (most of which are all fincancialy straining), such as mountain biking, 3d printing, PC building and photography/cinematography.
             </p>
           </div>
         </motion.section>
@@ -171,11 +171,11 @@ export default function Home() {
           className="space-y-6 text-center pt-12 border-t border-white/10"
         >
           <div className="text-xs font-mono text-cyan-400 uppercase tracking-widest">
-            03 // TRANSMISSION CHANNELS
+           // SOCIALS
           </div>
           <h2 className="text-3xl font-bold">Let's build something extraordinary.</h2>
           <p className="text-gray-400 max-w-md mx-auto text-sm font-light">
-            My communication frequencies are always open. Reach out via any of the channels below.
+            Reach out to me on any of my socials. I'm always ready for a chat.
           </p>
 
           <div className="flex justify-center gap-6 pt-4 font-mono text-sm">
