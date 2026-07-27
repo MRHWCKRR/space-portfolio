@@ -26,7 +26,7 @@ const projects: Project[] = [
     description: "An AI powered all-in-one solution for unorganised timetables and late assignments. You put your times, tasks, and schedule in, and AI does the rest.",
     details: "Built using HTML, CSS and native Javascript. Lightweight and feature-packed. Incorporates a Checklist, Calendar, and Daily/Weekly Event Schedule.",
     tags: ["HTML", "CSS", "Javascript"],
-    image: "/projects/kairos.png",
+    image: "/projects/Kairos.png",
     links: {
       demo: "https://kairos-xi-two.vercel.app/",
       github: "https://github.com/MRHWCKRR/kairos",
@@ -51,7 +51,7 @@ const projects: Project[] = [
     description: "A space-themed, fluidly animated web experience featuring a 3D starfield, glassmorphism UI components, and dynamic layout scaling.",
     details: "Engineered using Next.js App Router, React Three Fiber for the 3D environment, and Framer Motion for smooth animations and seamless navigation.",
     tags: ["Next.js", "Three.js", "Framer Motion", "Tailwind v3"],
-    image: "/projects/website.png",
+    image: "/projects/Website.png",
     links: {
       demo: "#",
       github: "https://github.com/MRHWCKRR/space-portfolio",
