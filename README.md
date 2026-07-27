@@ -1,4 +1,4 @@
-This is my Portfolio written in Astro and Tailwind, where I will be introducing and showcasing my projects, socials and updates.
+This is my Portfolio made with Next.js, Three.js, Framer Motion, Tailwind CSS, where I will be introducing and showcasing my projects, socials and updates.
 
 ## Have a Look:
 
