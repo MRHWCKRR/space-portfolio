@@ -8,6 +8,14 @@ This is my Portfolio made with Next.js, Three.js, Framer Motion, Tailwind CSS, w
 
 https://space-portfolio-cyan-two.vercel.app/
 
+## Prerequisites:
+
+```
+Node.js
+Editor of your choice
+A BrOWsEr
+```
+
 ## Try It Yourself:
 
 Clone the repo:
@@ -18,6 +26,13 @@ git clone https://github.com/MRHWCKRR/space-portfolio.git
 Or Fork Your Own!
 
 All content is based in page.tsx, and pictures of projects go into Public -> Projects
+
+To run your local copy:
+
+```
+npm run dev
+```
+
 
 Please star 😭😭😭
 
