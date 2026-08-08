@@ -1,3 +1,5 @@
+<img width="1867" height="941" alt="image" src="https://github.com/user-attachments/assets/15b25ea6-3c27-4499-a55a-869e88160fb5" />
+
 This is my Portfolio made with Next.js, Three.js, Framer Motion, Tailwind CSS, where I will be introducing and showcasing my projects, socials and updates.
 
 ## Have a Look:
