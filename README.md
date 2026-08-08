@@ -13,10 +13,11 @@ https://space-portfolio-cyan-two.vercel.app/
 Clone the repo:
 ```
 git clone https://github.com/MRHWCKRR/space-portfolio.git
-
 ```
 
 Or Fork Your Own!
+
+All content is based in page.tsx, and pictures of projects go into Public -> Projects
 
 Please star 😭😭😭
 
