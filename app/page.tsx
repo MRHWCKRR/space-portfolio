@@ -195,7 +195,7 @@ export default function Home() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-[#030308]/80 backdrop-blur-xl"
+            className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 bg-[#030308]/85 backdrop-blur-xl"
             onClick={() => setSelectedProject(null)}
           >
             <motion.div 
@@ -203,15 +203,26 @@ export default function Home() {
               animate={{ y: 0, scale: 1 }}
               exit={{ y: 20, scale: 0.95 }}
               onClick={(e) => e.stopPropagation()}
-              className="bg-[#0a0a14] border border-white/10 rounded-3xl w-full max-w-3xl max-h-[90vh] overflow-y-auto shadow-2xl relative custom-scrollbar p-6 sm:p-8 space-y-8 font-mono"
+              className="bg-[#0a0a14] border border-white/10 rounded-3xl w-full max-w-3xl max-h-[90vh] overflow-y-auto shadow-2xl relative custom-scrollbar p-6 sm:p-8 space-y-6 font-mono"
             >
               {/* Close Button */}
               <button 
                 onClick={() => setSelectedProject(null)}
-                className="absolute top-6 right-6 text-gray-400 hover:text-white bg-white/5 hover:bg-white/10 p-2 rounded-full transition-colors z-10"
+                className="absolute top-6 right-6 text-gray-300 hover:text-white bg-black/60 hover:bg-white/20 border border-white/10 p-2.5 rounded-full transition-colors z-20 backdrop-blur-md"
               >
                 ✕
               </button>
+
+              {/* Full Uncropped Image Preview at Top */}
+              {selectedProject.image && (
+                <div className="w-full bg-black/80 rounded-2xl overflow-hidden border border-white/10 flex items-center justify-center p-2 max-h-[420px]">
+                  <img 
+                    src={selectedProject.image} 
+                    alt={selectedProject.title} 
+                    className="w-full max-h-[400px] object-contain rounded-xl"
+                  />
+                </div>
+              )}
 
               {/* Status Header */}
               <div className="space-y-2 pr-8">
