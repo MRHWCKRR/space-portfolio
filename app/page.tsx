@@ -117,19 +117,21 @@ const projects: Project[] = [
   },
   {
     id: "project-2",
-    category: "Systems & Embedded",
-    title: "Telemetry & Sensor Hub // Wireless RTOS Node",
-    description: "A low-power wireless telemetry hub designed to stream multi-sensor environmental data over Bluetooth Low Energy with sub-10ms packet latency.",
-    details: "Engineered on Zephyr RTOS with C++. Utilizes multi-threading for asynchronous sensor reads, DMA memory transfers, and deep-sleep state management.",
-    tags: ["C/C++", "Zephyr RTOS", "BLE", "Embedded"],
-    image: "/telemetry.png",
+    category: "AI Web Tool",
+    title: "BeNice // Don't get fired!",
+    description: "A simple no-log web tool that translate angry corporate bs to normal human english words.",
+    details: "Made using HTML, CSS and JS. Simple little tool utilizing *some* AI service to help derypt and encrypt. No worrying about what you say, we don't log any of the useless bs you want to say to your boss/employer. It just gives you a nice well written email/text so you don't get fired.",
+    tags: ["HTML", "CSS", "JS", "Website"],
+    image: "/projects/BeNice.png",
     status: "ACTIVE_DEVELOPMENT",
-    journal: "Getting power consumption down was brutal. The CPU was waking up too frequently for sensor interrupts. Swapping to a DMA (Direct Memory Access) architecture allowed peripherals to write directly to buffer memory while the core slept, cutting power draw by 40%.",
+    journal: "Finished overall website design. Just need the AI backend.",
     roadmap: [
-      "[DONE] Basic I2C sensor drivers",
-      "[DONE] Implement deep-sleep state management",
-      "[IN_PROGRESS] Optimize BLE payload packet density",
-      "[PENDING] Design custom PCB layout in KiCad"
+      "[DONE] Create website and HTML structure",
+      "[DONE] Add CSS styling",
+      "[DONE] Add Javascript for button toggles between decrypt and ecrypt",
+      "[DONE] Add backend-ready javascript for word count",
+      "[IN_PROGRESS] Add AI service/provider",
+      "[IDEA] Add tones (nice/neutral/AI sounding lol"
     ],
     links: {
       github: "https://github.com/MRHWCKRR/telemetry-rtos",
